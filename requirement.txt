@@ -4,3 +4,4 @@ numpy==1.26.2
 plotly==5.19.0
 streamlit-autorefresh==0.1.9
 pyrebase4==4.5.0
+requests==2.31.0
