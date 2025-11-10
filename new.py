@@ -1,5 +1,5 @@
 import streamlit as st
-import pyrebase
+import pyrebase4
 import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
@@ -267,3 +267,4 @@ else:
     auth_choice=st.selectbox("Select Action", ["Login","Sign Up"])
     if auth_choice=="Sign Up": signup()
     else: login()
+
